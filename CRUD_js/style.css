@@ -1,0 +1,33 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    text-align: center;
+}
+
+*{ 
+    background-color:rgb(237, 237, 155);
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 2%;
+    
+  }
+
+button {
+    font-size: 30px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form {
+    border-style: solid;
+    border-width: thick;
+    border-color: grey;
+}
+
+input {
+    margin-left: 2%;
+}
