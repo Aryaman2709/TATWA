@@ -16,9 +16,9 @@ body {
     background-color:#00539C;
 } */
 
-p {
+label {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 2%;
 }
 
@@ -28,6 +28,7 @@ button {
     margin-left: 2%;
     margin-bottom: 1%;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 
 form {
@@ -37,10 +38,19 @@ form {
     padding: 30px;
     border: 2px solid black;
     border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 input {
     margin-left: 2%;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 /* div{
@@ -52,7 +62,7 @@ input {
     border-radius: 12px;
     border: 0;
     box-sizing: border-box;
-    color: #eee;
+    color: black;
     cursor: pointer;
     font-size: 18px;
     height: 50px;
